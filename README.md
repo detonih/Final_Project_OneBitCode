@@ -6,4 +6,5 @@
 
 ## Acceptance Criteria
 
+- You must use Object Oriented Programming in your software;
 - the result of each translation (included the original sentence), must be kept in a file that has the translation date and time in the name (ex: 10-10-18_10: 30.txt).
