@@ -2,10 +2,10 @@ require 'rest-client'
 
 class Trasnlator
 
-  def initialize(text)
-    @text = text.text
-    @source_language = text.source_language
-    @target_language = text.target_language
+  def initialize(text_picker)
+    @text = text_picker.text_picker
+    @source_language = text_picker.source_language
+    @target_language = text_picker.target_language
   end
   
   def translate
@@ -28,8 +28,3 @@ class Trasnlator
   end
 
 end
-
-# [[["I do not know-","sei la-",null,null,1]
-# ]
-# ,null,"pt",null,null,null,null,[]
-# ]
