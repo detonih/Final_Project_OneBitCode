@@ -1,6 +1,6 @@
-require_relative 'Text_Picker'
-require_relative 'Translator'
-require_relative 'Writer'
+require_relative 'textPicker'
+require_relative 'translator'
+require_relative 'writer'
 
 class App
 
