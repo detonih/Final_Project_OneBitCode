@@ -1,6 +1,6 @@
 require 'rest-client'
 
-class Trasnlator
+class Translator
 
   def initialize(text_picker)
     @text = text_picker.text_picker

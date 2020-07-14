@@ -1,4 +1,4 @@
-class Text_Picker
+class TextPicker
 
   attr_accessor :text_picker, :source_language, :target_language
 
